@@ -7,9 +7,9 @@ NuxSCP is a cross-platform desktop application (macOS & Linux) for secure file t
 > **App Preview**
 > 
 > <div align="center">
->  <img src="./assets/dashboard.png" width="300" alt="NuxSCP Dashboard" />
+>  <img src="./assets/dashboard.png" width="500" alt="NuxSCP Dashboard" />
 >  <br/><br/>
->  <img src="./assets/connection-modal.png" width="300" alt="NuxSCP Connection Settings" />
+>  <img src="./assets/connection-modal.png" width="500" alt="NuxSCP Connection Settings" />
 > </div>
 
 - **Dual-Pane File Manager**: Side-by-side local and remote view for easy drag-and-drop or push-button transfers.
