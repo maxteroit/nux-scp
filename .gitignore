@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node build artifacts
+node_modules/
+dist/
+dist-electron/
+out/
+release/
+build/
+coverage/
+
+# Vue / React / Vite
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and Editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Electron-builder caches
+.electron-builder/
+.electron-builder*/
+
+# Misc
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache

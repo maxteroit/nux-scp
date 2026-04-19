@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded background matching GitHub Dark theme -->
+  <rect width="48" height="48" rx="12" fill="#0d1117" />
+  
+  <!-- Subtle blue glow overlay matching the app style -->
+  <rect width="48" height="48" rx="12" fill="rgba(88, 166, 255, 0.1)"/>
+  
+  <!-- Server racks / Server lines -->
+  <path d="M10 16h28M10 24h28M10 32h28" stroke="#58a6ff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Status indicator lights -->
+  <circle cx="34" cy="16" r="3.5" fill="#238636"/>
+  <circle cx="34" cy="24" r="3.5" fill="#d29922"/>
+</svg>

@@ -1,0 +1,88 @@
+.session-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Toolbar */
+.session-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.toolbar-group + .toolbar-group::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 18px;
+  background: var(--border);
+  margin-right: 2px;
+}
+
+.toolbar-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius);
+  transition: all var(--ease-fast);
+}
+
+.toolbar-toggle:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.toolbar-toggle input { cursor: pointer; accent-color: var(--primary); }
+
+/* Dual pane */
+.session-panes {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  padding: 8px;
+  gap: 0;
+  background: var(--bg-base);
+}
+
+.pane-divider {
+  width: 4px;
+  background: var(--bg-base);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: col-resize;
+  position: relative;
+}
+
+.pane-divider::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  width: 2px;
+  background: var(--border);
+  border-radius: 2px;
+  transition: background var(--ease-fast);
+}
+
+.pane-divider:hover::after {
+  background: var(--primary);
+}
